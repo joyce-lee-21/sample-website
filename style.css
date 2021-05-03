@@ -1,11 +1,31 @@
 
 /* Color Theme Swatches in Hex */
-.Canoo-with-Jeff-Ludes-1-hex { color: #212026; }
-.Canoo-with-Jeff-Ludes-2-hex { color: #8599A6; }
-.Canoo-with-Jeff-Ludes-3-hex { color: #D2D6D9; }
-.Canoo-with-Jeff-Ludes-4-hex { color: #A0A676; }
-.Canoo-with-Jeff-Ludes-5-hex { color: #727363; }
+.Canoo-with-Jeff-Ludes-1-hex { color: #212026; } /*text*/ 
+.Canoo-with-Jeff-Ludes-2-hex { color: #8599A6; } /*TBD*/ 
+.Canoo-with-Jeff-Ludes-3-hex { color: #D2D6D9; } /*background*/ 
+.Canoo-with-Jeff-Ludes-4-hex { color: #A0A676; } /*heading color*/
+.Canoo-with-Jeff-Ludes-5-hex { color: #727363; } /*section background*/
 
 body {
     background:#D2D6D9;
+    font-family: 'Calibri';
+    color: #212026;
 } 
+
+h1 {
+    text-align: center;
+}
+div {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    color: #727363;
+}
+
+div img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
