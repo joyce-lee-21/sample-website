@@ -10,6 +10,7 @@ body {
     background:#D2D6D9;
     font-family: 'Calibri';
     color: #212026;
+    text-align: center;
 } 
 
 h1 {
@@ -25,7 +26,11 @@ h2 {
 }
 
 div img {
-    width: 80%;
+    width: 60%;
     margin: auto;
     display: block;
+}
+
+.about-me p {
+    width: 60%;
 }
